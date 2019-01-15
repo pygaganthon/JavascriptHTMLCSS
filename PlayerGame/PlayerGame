@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My title</title>
+	<script type="text/javascript" src="js1.js"></script>
+	<link rel="stylesheet" type="text/css" href="file.css">
+</head>
+<body>
+	<h1><span id="p1d">0</span> to <span id="p2d">0</span></h1>
+	<p>Playing to: <span>5</span></p>
+	<label id="max">Winning Score: </label><input type="number" name="max">
+	<button id ="p1b">Player One</button>
+	<button id ="p2b">Player Two</button>
+	<button id ="rb">Replay</button>
+
+	<script src="js1.js"></script>
+</body>
+</html>
