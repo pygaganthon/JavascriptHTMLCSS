@@ -68,54 +68,5 @@ input.addEventListener("change",function(){
 	pspan.textContent = winningscore;
 	
 });
-// window.setTimeout(function() {
-// }
 
-// var body = document.querySelector("body");
-// var isBlue = true;
-
-// setInterval( function(){
-// 	if(!isBlue){
-// 		body.style.background = "white";
-// 	}
-// 	else {body.style.background="#3498db";}
-
-// isBlue = !isBlue;}
-// 	,1000);
-
-
-// What would you like to do?(P) always
-
-// "new" - Add a todo(P)
-// "list" - view all todos (comes in sonsole in form of array)
-// "delete" - Remove Specific Todo
-// "quit" - quit app
-	
-// window.setTimeout(function() {
-
-// 	var todos = [];
-// 	var answer="noquit"
-// 	while(answer!="quit")
-// 	{
-// 		answer = prompt("What would you like to do?");
-// 		if(answer=="new") { var add = prompt("Add a to do."); todos.push(add); console.log(add + " added to list");}
-// 		if(answer=="list") { 	console.log("**********");
-// 								todos.forEach(
-// 											function(iter,index){
-// 												console.log(index + ":  " + iter);
-// 											}
-// 											// function(iter){
-// 											// 	console.log(iter);
-// 											// }
-// 									);
-// 								console.log("**********");
-// 							}
-// 		if(answer=="delete") { var ind = prompt("Enter index of to-do to delete!");
-// 							  todos.splice(ind,1);
-// 							  console.log("Todo Removed");
-// 							}
-// 	}
-// 	console.log("OK! You QUIT the app!") 
-
-// }, 500);
 
