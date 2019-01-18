@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodoList App</title>
+	<link rel="stylesheet" type="text/css" href="cssfile.css">
+	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body> 
+	<div id="container">
+		<!-- /* font awesome 5 requires that we put i inside span*/ -->
+		<h1>TO-Do List<span id="plusbutton"><i class="fa fa-plus"></i></span></h1>
+		<input type="text" placeholder="Add New Todo">
+		<ul>
+			<li><span><i class="fas fa-trash-alt"></i></span> Buy Robes</li>
+			<li><span><i class="fas fa-trash-alt"></i></span> Fight malfoy</li>
+			<li><span><i class="fas fa-trash-alt"></i></span> Buy New Wand</li>
+			<li><span><i class="fas fa-trash-alt"></i></span> Feed hedwig</li>
+		</ul>
+	</div>
+
+<script type="text/javascript" src="jqueryfile.js"></script>
+</body>
+</html>
