@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>TodoList App</title>
-	<link rel="stylesheet" type="text/css" href="cssfile.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/cssfile.css">
 	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -20,6 +20,6 @@
 		</ul>
 	</div>
 
-<script type="text/javascript" src="jqueryfile.js"></script>
+<script type="text/javascript" src="assets/js/jqueryfile.js"></script>
 </body>
 </html>
